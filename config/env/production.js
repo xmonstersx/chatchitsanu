@@ -3,10 +3,10 @@
 module.exports = {
 	db: {
 		//uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
-		uri: 'mongodb://xmonstersx:w,j,u.8ii^hsivd@ds027728.mongolab.com:27728/mean',
+		uri: 'mongodb://@ds027728.mongolab.com:27728/mean',
 		options: {
-			user: '',
-			pass: ''
+			user: 'root',
+			pass: 'root'
 		}
 	},
 	log: {
